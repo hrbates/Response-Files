@@ -1,0 +1,10 @@
+--t9_0 1 --rho_0 1.e9
+--root_factor 1.001
+--xml_steps 5
+--network_xml ../nucnet-tools-code/data_pub/my_net.xml
+--nuc_xpath "[z <= 30]"
+--output_xml out_Ia_weak_rho_9.xml
+--init_mass_frac "{c12; 0.5}" "{o16; 0.5}"
+--stepper ab6 --hydro_equil true
+--t_end 1.e8
+--aa522a25_update_net true
